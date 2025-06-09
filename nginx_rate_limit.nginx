@@ -1,0 +1,6 @@
+limit_req_zone $binary_remote_addr zone=flood:10m rate=10r/s;
+server {
+    location / {
+        limit_req zone=flood burst=20 nodelay;
+    }
+}

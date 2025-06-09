@@ -1,0 +1,1 @@
+RequestReadTimeout header=20-40,MinRate=500 body=20-40,MinRate=500
