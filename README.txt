@@ -1,16 +1,12 @@
-# DDoS Attack & Defense Simulator  
-## By: Tech Byte | College Project  
+# 🔒 DDoS Attack & Defense Simulator  
+**By iamabhishek-1** | *Ethical Cybersecurity Project*  
 
-✅ **Legal Use:**  
-- ONLY test in a lab (Kali Linux + Metasploitable).  
-- NEVER attack real websites.  
+## 📝 Description  
+A lab environment to simulate DDoS attacks (SYN Flood, HTTP Flood, Slowloris) and test defenses.  
 
-⚡ **How to Run:**  
-1. Install Python + Scapy (`pip install scapy`).  
-2. Run attack scripts:  
-   - SYN Flood: `python3 syn_flood.py`  
-   - HTTP Flood: `python3 http_flood.py`  
+⚠️ **Warning**: Only use in controlled environments (e.g., Kali Linux + Metasploitable).  
 
-🛡️ **Defenses:**  
-- Use Wireshark to monitor traffic.  
-- Apply Nginx/Apache configs in `/Defense_Mechanisms/`.  
+## 🛠️ Setup  
+```bash
+git clone https://github.com/iamabhishek-1/DDoS_Defense_Project.git
+pip install -r requirements.txt
