@@ -1,5 +1,5 @@
 # DDoS Attack & Defense Simulator  
-## By: [Your Name] | College Project  
+## By: Tech Byte | College Project  
 
 ✅ **Legal Use:**  
 - ONLY test in a lab (Kali Linux + Metasploitable).  
